@@ -1,13 +1,53 @@
 :root{
-   --primary: ;
-   --secundary: ;
-   --tertairy: ;
+   --primary: #A8FE39;
+   --secundary: #EDFF08;
 
-   --background: ;
-   --font: ;
+   --background: #000000;
+   --font: #FFFFFF;
 }
 
 *{
    padding: 0;
    margin: 0;
+}
+
+.back{
+    z-index: -1;
+    background-color: var(--background);
+
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.back div{
+    position: relative;
+    /* top: 20%;
+    |left: 40%;
+    |width: 20vh;
+    |height: 20vh;
+    */
+    background-color: var(--primary);
+
+    border-radius: 50%;
+    box-shadow: 0 0 1vh 2vh var(--primary);
+}
+
+.front{
+    width: 100vw;
+    height: 100vh;
+}
+
+.front .div1{
+    position: relative;
+    top: 15%;
+    left: 20%;
+
+    background: rgba(255, 255, 255, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    width: 60%;
+    height: 50vh;
 }
