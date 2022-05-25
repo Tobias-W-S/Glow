@@ -27,6 +27,6 @@ let createBlob = (name, x, x2, y, y2) =>{
 
 
 
-createBlob("orb1", 0, 20, 5, 35);
-createBlob("orb2", 30, 50, 10, 35);
-createBlob("orb3", 60, 80, 15, 35);
+createBlob("orb1", 0, 20, 5, 70);
+createBlob("orb2", 30, 50, 10, 50);
+createBlob("orb3", 60, 80, 15, 65);
